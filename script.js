@@ -1,4 +1,4 @@
-/* ==========================================================================
+﻿/* ==========================================================================
    INTERACTIVE SCRIPT - SAINI PLANT HOME NURSERY
    Premium Client-Side UX & Dynamic WhatsApp Inquiry Generator
    ========================================================================== */
@@ -228,7 +228,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const categoryLabel = categorySelect.options[categorySelect.selectedIndex].text;
       const customDetail = document.getElementById('custom-detail').value.trim();
 
-      const baseNumber = '919811234567'; // Owner WhatsApp Number
+      const baseNumber = '919999702495'; // Owner WhatsApp Number
       
       // Constructing detailed message
       let message = `Hi Saini Plant Home Nursery! I'm ${name}.\n\n`;
@@ -259,65 +259,65 @@ const categoriesData = {
     title: "Indoor Foliage & Air-Purifiers",
     subtitle: "Premium shade-loving species optimized for Delhi rooms and offices.",
     items: [
-      { name: "Monstera Deliciosa", common: "Swiss Cheese Plant", price: "₹250 - ₹650", icon: "leaf" },
-      { name: "Ficus Lyrata", common: "Fiddle Leaf Fig", price: "₹450 - ₹1,200", icon: "tree" },
-      { name: "Areca Palm", common: "Natural Air-Filter", price: "₹180 - ₹450", icon: "wind" },
-      { name: "Sansevieria", common: "Snake Plant (Laurentii)", price: "₹120 - ₹280", icon: "sparkles" },
-      { name: "Zamioculcas Zamiifolia", common: "ZZ Tabletop Plant", price: "₹200 - ₹380", icon: "award" }
+      { name: "Monstera Deliciosa", common: "Swiss Cheese Plant", price: "â‚¹250 - â‚¹650", icon: "leaf" },
+      { name: "Ficus Lyrata", common: "Fiddle Leaf Fig", price: "â‚¹450 - â‚¹1,200", icon: "tree" },
+      { name: "Areca Palm", common: "Natural Air-Filter", price: "â‚¹180 - â‚¹450", icon: "wind" },
+      { name: "Sansevieria", common: "Snake Plant (Laurentii)", price: "â‚¹120 - â‚¹280", icon: "sparkles" },
+      { name: "Zamioculcas Zamiifolia", common: "ZZ Tabletop Plant", price: "â‚¹200 - â‚¹380", icon: "award" }
     ]
   },
   outdoor: {
     title: "Sun-Loving Structure & Ornamental Plants",
     subtitle: "Acclimated outdoor greenery that stands strong against Delhi summers.",
     items: [
-      { name: "Wodyetia Bifurcata", common: "Foxtail Palm Tree", price: "₹600 - ₹2,500", icon: "tree" },
-      { name: "Bougainvillea Spectabilis", common: "Flowering Climber", price: "₹150 - ₹350", icon: "flower" },
-      { name: "Bambusa Vulgaris", common: "Golden Hedge Bamboo", price: "₹250 - ₹480", icon: "align-justify" },
-      { name: "Plumeria Rubra", common: "Champa Tree", price: "₹350 - ₹1,100", icon: "sun" },
-      { name: "Hibiscus Rosa-sinensis", common: "Gudhal Flowering Shrub", price: "₹90 - ₹180", icon: "flower-2" }
+      { name: "Wodyetia Bifurcata", common: "Foxtail Palm Tree", price: "â‚¹600 - â‚¹2,500", icon: "tree" },
+      { name: "Bougainvillea Spectabilis", common: "Flowering Climber", price: "â‚¹150 - â‚¹350", icon: "flower" },
+      { name: "Bambusa Vulgaris", common: "Golden Hedge Bamboo", price: "â‚¹250 - â‚¹480", icon: "align-justify" },
+      { name: "Plumeria Rubra", common: "Champa Tree", price: "â‚¹350 - â‚¹1,100", icon: "sun" },
+      { name: "Hibiscus Rosa-sinensis", common: "Gudhal Flowering Shrub", price: "â‚¹90 - â‚¹180", icon: "flower-2" }
     ]
   },
   succulents: {
     title: "Minimalist Succulents & Tabletop Cacti",
     subtitle: "Drought-resilient miniature setups in designer clay and ceramic pots.",
     items: [
-      { name: "Echeveria Elegans", common: "Mexicana Rose Succulent", price: "₹80 - ₹150", icon: "sun" },
-      { name: "Haworthia Fasciata", common: "Zebra Succulent", price: "₹70 - ₹130", icon: "grid" },
-      { name: "Crassula Ovata", common: "Prosperity Jade Plant", price: "₹90 - ₹220", icon: "heart" },
-      { name: "Aloe Barbadensis", common: "Medicinal Aloe Vera", price: "₹60 - ₹140", icon: "activity" },
-      { name: "Othonna Capensis", common: "Ruby Necklace Hanging Succulent", price: "₹120 - ₹250", icon: "link" }
+      { name: "Echeveria Elegans", common: "Mexicana Rose Succulent", price: "â‚¹80 - â‚¹150", icon: "sun" },
+      { name: "Haworthia Fasciata", common: "Zebra Succulent", price: "â‚¹70 - â‚¹130", icon: "grid" },
+      { name: "Crassula Ovata", common: "Prosperity Jade Plant", price: "â‚¹90 - â‚¹220", icon: "heart" },
+      { name: "Aloe Barbadensis", common: "Medicinal Aloe Vera", price: "â‚¹60 - â‚¹140", icon: "activity" },
+      { name: "Othonna Capensis", common: "Ruby Necklace Hanging Succulent", price: "â‚¹120 - â‚¹250", icon: "link" }
     ]
   },
   flowering: {
     title: "Fragrant & Exotic Flowering Beauties",
     subtitle: "Vibrant clusters of seasonal and perennial Delhi blooms.",
     items: [
-      { name: "Spathiphyllum", common: "Peace Lily (White Blooms)", price: "₹180 - ₹350", icon: "wind" },
-      { name: "Anthurium Scherzerianum", common: "Laceleaf (Red Exotic)", price: "₹300 - ₹550", icon: "heart-handshake" },
-      { name: "Jasminum Sambac", common: "Fragrant Mogra Climber", price: "₹80 - ₹160", icon: "sun" },
-      { name: "Orchidaceae Hybrid", common: "Premium Cut Orchid", price: "₹450 - ₹800", icon: "star" },
-      { name: "Adenium Obesum", common: "Desert Rose Bonsai", price: "₹220 - ₹600", icon: "award" }
+      { name: "Spathiphyllum", common: "Peace Lily (White Blooms)", price: "â‚¹180 - â‚¹350", icon: "wind" },
+      { name: "Anthurium Scherzerianum", common: "Laceleaf (Red Exotic)", price: "â‚¹300 - â‚¹550", icon: "heart-handshake" },
+      { name: "Jasminum Sambac", common: "Fragrant Mogra Climber", price: "â‚¹80 - â‚¹160", icon: "sun" },
+      { name: "Orchidaceae Hybrid", common: "Premium Cut Orchid", price: "â‚¹450 - â‚¹800", icon: "star" },
+      { name: "Adenium Obesum", common: "Desert Rose Bonsai", price: "â‚¹220 - â‚¹600", icon: "award" }
     ]
   },
   pots: {
     title: "Designer Pots & Styling Elements",
     subtitle: "Premium curated pots in ceramic, terracotta, fiber and metals.",
     items: [
-      { name: "Matte Ceramic Cylinder", common: "Luxury Desk Pots", price: "₹350 - ₹850", icon: "container" },
-      { name: "Terracotta Ribbed Basin", common: "Organic Clay Pots", price: "₹120 - ₹380", icon: "disc" },
-      { name: "Fiber-Reinforced Planter", common: "Heavy-Duty Lobby Pots", price: "₹550 - ₹2,200", icon: "box" },
-      { name: "Self-Watering Compact", common: "Smart Watering Pot", price: "₹90 - ₹180", icon: "droplet" },
-      { name: "Coconut Coir Hanging Basket", common: "Organic Fiber Basket", price: "₹110 - ₹240", icon: "compass" }
+      { name: "Matte Ceramic Cylinder", common: "Luxury Desk Pots", price: "â‚¹350 - â‚¹850", icon: "container" },
+      { name: "Terracotta Ribbed Basin", common: "Organic Clay Pots", price: "â‚¹120 - â‚¹380", icon: "disc" },
+      { name: "Fiber-Reinforced Planter", common: "Heavy-Duty Lobby Pots", price: "â‚¹550 - â‚¹2,200", icon: "box" },
+      { name: "Self-Watering Compact", common: "Smart Watering Pot", price: "â‚¹90 - â‚¹180", icon: "droplet" },
+      { name: "Coconut Coir Hanging Basket", common: "Organic Fiber Basket", price: "â‚¹110 - â‚¹240", icon: "compass" }
     ]
   },
   landscaping: {
     title: "Institutional & Residential Landscaping",
     subtitle: "Professional design, execution, and irrigation services.",
     items: [
-      { name: "Vertical Living Wall", common: "Real Automated Plant Wall", price: "₹450 / sq.ft.", icon: "layers" },
-      { name: "Backyard Stone & Turf", common: "Lawn and Grass Grassways", price: "₹180 / sq.ft.", icon: "layout" },
-      { name: "Balcony Decking Setup", common: "Premium Wood-Laminate package", price: "₹12,000 onwards", icon: "hammer" },
-      { name: "Drip Irrigation Automatic", common: "Water-Saving Smart System", price: "₹3,500 package", icon: "droplet" }
+      { name: "Vertical Living Wall", common: "Real Automated Plant Wall", price: "â‚¹450 / sq.ft.", icon: "layers" },
+      { name: "Backyard Stone & Turf", common: "Lawn and Grass Grassways", price: "â‚¹180 / sq.ft.", icon: "layout" },
+      { name: "Balcony Decking Setup", common: "Premium Wood-Laminate package", price: "â‚¹12,000 onwards", icon: "hammer" },
+      { name: "Drip Irrigation Automatic", common: "Water-Saving Smart System", price: "â‚¹3,500 package", icon: "droplet" }
     ]
   }
 };
@@ -356,7 +356,7 @@ function openCategoryDrawer(categoryKey) {
       ${itemsHtml}
     </div>
     <div class="drawer-footer-actions">
-      <a href="https://wa.me/919811234567?text=Hi%20Saini%20Plant%20Home%20Nursery,%20I'm%20inquiring%20about%20prices%20and%20catalogs%20for%20*${encodeURIComponent(data.title)}*" 
+      <a href="https://wa.me/919999702495?text=Hi%20Saini%20Plant%20Home%20Nursery,%20I'm%20inquiring%20about%20prices%20and%20catalogs%20for%20*${encodeURIComponent(data.title)}*" 
          class="btn btn-primary" 
          target="_blank">
         <i data-lucide="message-circle" class="btn-icon"></i>
@@ -401,7 +401,7 @@ const projectData = {
     desc: "We transformed a plain concrete, hot terrace space into an elegant, sun-shaded Mediterranean garden retreat for a boutique cafe in Chanakyapuri. We built heavy timber-reinforced planters, integrated an automatic drip line, and planted mature golden bamboo and white plumeria (champa) trees to block street noise and create natural organic privacy partitions.",
     meta: {
       duration: "4 Working Days",
-      cost: "₹1,25,000",
+      cost: "â‚¹1,25,000",
       plants: "Foxtail Palms, Golden Bamboo, Champa, Mogra",
       irrigation: "Automatic Smart Drip"
     }
@@ -412,7 +412,7 @@ const projectData = {
     desc: "Created an immersive 400 sq.ft. indoor vertical living plant wall for a leading technology firm's headquarters reception lobby. Features a fully self-watering automatic sub-irrigation grid and a carefully designed mosaic layout using air-purifying, indoor-acclimated plants that significantly enhance lobby air quality and acoustic insulation.",
     meta: {
       duration: "5 Working Days",
-      cost: "₹1,80,000",
+      cost: "â‚¹1,80,000",
       plants: "Philodendron Xanadu, Scindapsus, Chlorophytum",
       irrigation: "Recirculating Automated Sub-irrigation"
     }
@@ -423,7 +423,7 @@ const projectData = {
     desc: "A luxury high-rise penthouse courtyard designed to feel like an organic sanctuary. Features clean stone paths, premium evergreen grass turf, minimalist grey structural pots, and massive Fiddle Leaf Fig and Areca Palm accent structures that survive Delhi's harsh rooftop summer wind cycles.",
     meta: {
       duration: "3 Working Days",
-      cost: "₹95,000",
+      cost: "â‚¹95,000",
       plants: "Ficus Lyrata, Areca Palms, Agave, Cycas",
       irrigation: "Manual Sprinkler Grid"
     }
@@ -461,7 +461,7 @@ function openGalleryModal(projectId) {
       </div>
     </div>
     <div class="drawer-footer-actions">
-      <a href="https://wa.me/919811234567?text=Hi%20Saini%20Plant%20Home!%20I'm%20interested%20in%20a%20landscaping%20project%20similar%20to%20*${encodeURIComponent(data.title)}*%20in%20${encodeURIComponent(data.loc)}" 
+      <a href="https://wa.me/919999702495?text=Hi%20Saini%20Plant%20Home!%20I'm%20interested%20in%20a%20landscaping%20project%20similar%20to%20*${encodeURIComponent(data.title)}*%20in%20${encodeURIComponent(data.loc)}" 
          class="btn btn-primary" 
          target="_blank">
         <i data-lucide="phone-call" class="btn-icon"></i>
@@ -496,3 +496,4 @@ document.getElementById('gallery-modal')?.addEventListener('click', (e) => {
     closeGalleryModal();
   }
 });
+

@@ -3,6 +3,16 @@
    Premium Modern Business Website - HSL Organic Luxury Design
    ========================================================================== */
 
+/* Ensure Google Fonts never block render */
+@font-face {
+  font-family: 'Playfair Display';
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Outfit';
+  font-display: swap;
+}
+
 /* 1. Core Variables & Design System Tokens */
 :root {
   /* Color Palette - Curated Organic Luxury */

@@ -9,15 +9,17 @@
   <title>Saini Plant Home Nursery | Premium Wholesale Plants & Landscaping Delhi</title>
   
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="assets/indoor_plants.png">
+  <link rel="icon" type="image/png" href="assets/indoor_plants.jpg">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  <!-- Preload hero image for instant LCP -->
+  <link rel="preload" as="image" href="assets/hero_bg.jpg">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Outfit:wght@100..900&display=swap&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
   
   <!-- Lucide Icons CDN -->
-  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://unpkg.com/lucide@latest" defer></script>
 
   <!-- Custom Stylesheet -->
   <link rel="stylesheet" href="style.css">
@@ -28,10 +30,10 @@
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Saini Plant Home Nursery",
-    "image": "assets/hero_bg.png",
+    "image": "assets/hero_bg.jpg",
     "@id": "https://sainiplanthome.com",
     "url": "https://sainiplanthome.com",
-    "telephone": "+919811234567",
+    "telephone": "+919999702495",
     "priceRange": "$$",
     "address": {
       "@type": "PostalAddress",
@@ -75,7 +77,7 @@
 <body>
 
   <!-- Sticky WhatsApp Floating Button -->
-  <a href="https://wa.me/919811234567?text=Hi%20Saini%20Plant%20Home,%20I%20am%20interested%20in%20buying%20plants%20for%20my%20space." 
+  <a href="https://wa.me/919999702495?text=Hi%20Saini%20Plant%20Home,%20I%20am%20interested%20in%20buying%20plants%20for%20my%20space." 
      class="whatsapp-sticky" 
      target="_blank" 
      aria-label="Chat on WhatsApp"
@@ -139,7 +141,7 @@
 
   <!-- 1. Premium Hero Section -->
   <section class="hero-section" id="home">
-    <div class="hero-bg-overlay" style="background-image: linear-gradient(180deg, rgba(14, 28, 20, 0.7) 0%, rgba(14, 28, 20, 0.4) 60%, rgba(14, 28, 20, 0.8) 100%), url('assets/hero_bg.png');"></div>
+    <div class="hero-bg-overlay" style="background-image: linear-gradient(180deg, rgba(14, 28, 20, 0.7) 0%, rgba(14, 28, 20, 0.4) 60%, rgba(14, 28, 20, 0.8) 100%), url('assets/hero_bg.jpg');"></div>
     <div class="hero-sunlight"></div>
     
     <div class="hero-container">
@@ -157,7 +159,7 @@
             <span>Explore Plants</span>
             <i data-lucide="arrow-right" class="btn-icon-right"></i>
           </a>
-          <a href="https://wa.me/919811234567?text=Hi%20Saini%20Plant%20Home,%20I'm%20visiting%20your%20website%20and%20want%20to%20inquire%20about%20your%20wholesale%20plant%20catalog." 
+          <a href="https://wa.me/919999702495?text=Hi%20Saini%20Plant%20Home,%20I'm%20visiting%20your%20website%20and%20want%20to%20inquire%20about%20your%20wholesale%20plant%20catalog." 
              class="btn btn-outline-white" 
              target="_blank">
             <i data-lucide="message-circle" class="btn-icon"></i>
@@ -168,7 +170,7 @@
         <div class="hero-stats">
           <div class="hero-stat-item">
             <div class="stat-num">500+</div>
-            <div class="stat-lbl">Google Reviews (4.8★)</div>
+            <div class="stat-lbl">Google Reviews (4.8â˜…)</div>
           </div>
           <div class="hero-stat-divider"></div>
           <div class="hero-stat-item">
@@ -182,12 +184,12 @@
       <div class="hero-visual">
         <div class="floating-card card-1 animate-float-slow">
           <div class="card-glass">
-            <img src="assets/indoor_plants.png" alt="Monstera Deliciosa Indoor Plant" class="floating-card-img" loading="lazy">
+            <img src="assets/indoor_plants.jpg" alt="Monstera Deliciosa Indoor Plant" class="floating-card-img" loading="lazy">
             <div class="floating-card-info">
               <span class="botanical-name">Monstera Deliciosa</span>
               <span class="common-name">Swiss Cheese Plant</span>
               <div class="floating-card-footer">
-                <span class="price-tag">Wholesale from ₹250</span>
+                <span class="price-tag">Wholesale from â‚¹250</span>
                 <span class="rating"><i data-lucide="star" class="star-icon"></i> 4.9</span>
               </div>
             </div>
@@ -196,12 +198,12 @@
 
         <div class="floating-card card-2 animate-float-fast">
           <div class="card-glass">
-            <img src="assets/succulents.png" alt="Echeveria Premium Succulents" class="floating-card-img" loading="lazy">
+            <img src="assets/succulents.jpg" alt="Echeveria Premium Succulents" class="floating-card-img" loading="lazy">
             <div class="floating-card-info">
               <span class="botanical-name">Echeveria Elegans</span>
               <span class="common-name">Rose Succulent</span>
               <div class="floating-card-footer">
-                <span class="price-tag">Wholesale from ₹80</span>
+                <span class="price-tag">Wholesale from â‚¹80</span>
                 <span class="rating"><i data-lucide="star" class="star-icon"></i> 4.8</span>
               </div>
             </div>
@@ -225,7 +227,7 @@
         <!-- Category 1: Indoor Plants -->
         <div class="category-card" data-category="indoor">
           <div class="cat-img-wrapper">
-            <img src="assets/indoor_plants.png" alt="Lush Indoor Plants Collection" class="category-img" loading="lazy">
+            <img src="assets/indoor_plants.jpg" alt="Lush Indoor Plants Collection" class="category-img" loading="lazy">
             <div class="cat-overlay"></div>
           </div>
           <div class="cat-content">
@@ -241,7 +243,7 @@
         <!-- Category 2: Outdoor Plants -->
         <div class="category-card" data-category="outdoor">
           <div class="cat-img-wrapper">
-            <img src="assets/hero_bg.png" alt="Acclimated Outdoor Plants" class="category-img" loading="lazy">
+            <img src="assets/hero_bg.jpg" alt="Acclimated Outdoor Plants" class="category-img" loading="lazy">
             <div class="cat-overlay"></div>
           </div>
           <div class="cat-content">
@@ -257,7 +259,7 @@
         <!-- Category 3: Succulents & Cacti -->
         <div class="category-card" data-category="succulents">
           <div class="cat-img-wrapper">
-            <img src="assets/succulents.png" alt="Minimalist Succulents and Cacti" class="category-img" loading="lazy">
+            <img src="assets/succulents.jpg" alt="Minimalist Succulents and Cacti" class="category-img" loading="lazy">
             <div class="cat-overlay"></div>
           </div>
           <div class="cat-content">
@@ -309,7 +311,7 @@
         <!-- Category 6: Landscaping Services -->
         <div class="category-card" data-category="landscaping">
           <div class="cat-img-wrapper">
-            <img src="assets/landscape_after.png" alt="Luxury Landscaping Services" class="category-img" loading="lazy">
+            <img src="assets/landscape_after.jpg" alt="Luxury Landscaping Services" class="category-img" loading="lazy">
             <div class="cat-overlay"></div>
           </div>
           <div class="cat-content">
@@ -344,10 +346,10 @@
         <!-- Left Side Layered Gallery -->
         <div class="about-visuals">
           <div class="about-image-frame main-frame">
-            <img src="assets/hero_bg.png" alt="Saini Plant Home Nursery Greenhouse" class="about-img-main" loading="lazy">
+            <img src="assets/hero_bg.jpg" alt="Saini Plant Home Nursery Greenhouse" class="about-img-main" loading="lazy">
           </div>
           <div class="about-image-frame sub-frame animate-float-slow">
-            <img src="assets/indoor_plants.png" alt="Fiddle leaf fig potting" class="about-img-sub" loading="lazy">
+            <img src="assets/indoor_plants.jpg" alt="Fiddle leaf fig potting" class="about-img-sub" loading="lazy">
           </div>
           <div class="decor-circle"></div>
         </div>
@@ -357,7 +359,7 @@
           <span class="badge badge-beige">Our Story</span>
           <h2 class="about-title">A Legacy of Botanical Excellence in Delhi NCR</h2>
           <p class="about-p">Established in 1998, **Saini Plant Home Nursery** has grown from a humble local supplier into Connaught Place's most trusted wholesale destination. With over 25 years of horticultural expertise, we supply premium-grade greenery directly from our growing fields to your door.</p>
-          <p class="about-p">Unlike online aggregators, every single plant in our nursery is acclimated to withstand Delhi’s unique climate cycles—ensuring they survive, stay resilient, and thrive in your spaces. Our wholesale-direct pricing model makes lush green living highly accessible.</p>
+          <p class="about-p">Unlike online aggregators, every single plant in our nursery is acclimated to withstand Delhiâ€™s unique climate cyclesâ€”ensuring they survive, stay resilient, and thrive in your spaces. Our wholesale-direct pricing model makes lush green living highly accessible.</p>
 
           <!-- Core Pillars -->
           <ul class="about-pillars">
@@ -475,12 +477,12 @@
         <div class="ba-slider" id="before-after-slider">
           <!-- After Image (Lush) -->
           <div class="ba-image-container image-after">
-            <img src="assets/landscape_after.png" alt="Luxury Courtyard Landscape After Transformation">
+            <img src="assets/landscape_after.jpg" alt="Luxury Courtyard Landscape After Transformation">
             <span class="label label-after">Lush Transformation (After)</span>
           </div>
           <!-- Before Image (Dry) -->
           <div class="ba-image-container image-before" id="before-img-container">
-            <img src="assets/landscape_before.png" alt="Bare Yard Courtyard Before Transformation">
+            <img src="assets/landscape_before.jpg" alt="Bare Yard Courtyard Before Transformation">
             <span class="label label-before">Dry Backyard (Before)</span>
           </div>
           <!-- Slider Control Bar -->
@@ -501,7 +503,7 @@
           <!-- Project 1 -->
           <div class="gallery-item" onclick="openGalleryModal(1)">
             <div class="gallery-img-container">
-              <img src="assets/landscape_after.png" alt="Luxury Cafe Terrace Greenery Chanakyapuri" class="gallery-img" loading="lazy">
+              <img src="assets/landscape_after.jpg" alt="Luxury Cafe Terrace Greenery Chanakyapuri" class="gallery-img" loading="lazy">
               <div class="gallery-hover-overlay">
                 <i data-lucide="eye" class="gallery-icon"></i>
                 <span>View Project Case</span>
@@ -516,7 +518,7 @@
           <!-- Project 2 -->
           <div class="gallery-item" onclick="openGalleryModal(2)">
             <div class="gallery-img-container">
-              <img src="assets/hero_bg.png" alt="Office Lobby Vertical Plant Wall Noida" class="gallery-img" loading="lazy">
+              <img src="assets/hero_bg.jpg" alt="Office Lobby Vertical Plant Wall Noida" class="gallery-img" loading="lazy">
               <div class="gallery-hover-overlay">
                 <i data-lucide="eye" class="gallery-icon"></i>
                 <span>View Project Case</span>
@@ -531,7 +533,7 @@
           <!-- Project 3 -->
           <div class="gallery-item" onclick="openGalleryModal(3)">
             <div class="gallery-img-container">
-              <img src="assets/indoor_plants.png" alt="Residential Penthouse Balcony Garden CP" class="gallery-img" loading="lazy">
+              <img src="assets/indoor_plants.jpg" alt="Residential Penthouse Balcony Garden CP" class="gallery-img" loading="lazy">
               <div class="gallery-hover-overlay">
                 <i data-lucide="eye" class="gallery-icon"></i>
                 <span>View Project Case</span>
@@ -577,7 +579,7 @@
               <div class="user-avatar" style="background-color: hsl(135, 33%, 20%);">AR</div>
               <div class="user-info">
                 <h4 class="user-name">Amit Roy</h4>
-                <span class="user-tag">Verified Customer • Delhi</span>
+                <span class="user-tag">Verified Customer â€¢ Delhi</span>
               </div>
               <div class="google-logo-box">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
@@ -598,7 +600,7 @@
               <div class="user-avatar" style="background-color: hsl(25, 20%, 35%);">SM</div>
               <div class="user-info">
                 <h4 class="user-name">Shreya Malhotra</h4>
-                <span class="user-tag">Homeowner • Vasant Vihar</span>
+                <span class="user-tag">Homeowner â€¢ Vasant Vihar</span>
               </div>
               <div class="google-logo-box">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
@@ -619,7 +621,7 @@
               <div class="user-avatar" style="background-color: hsl(125, 18%, 25%);">VK</div>
               <div class="user-info">
                 <h4 class="user-name">Vikram Khanna</h4>
-                <span class="user-tag">Interior Designer • Greater Kailash</span>
+                <span class="user-tag">Interior Designer â€¢ Greater Kailash</span>
               </div>
               <div class="google-logo-box">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
@@ -659,7 +661,7 @@
           <div class="cta-text-content">
             <span class="badge cta-badge">Personalized Consultation</span>
             <h2 class="cta-banner-title">Need help choosing the perfect plants?</h2>
-            <p class="cta-banner-p">Tell us about your home, cafe, or office space. Our expert Delhi NCR botanists will handpick plant recommendations, soil mixes, and appropriate designer pots—then WhatsApp you a curated catalog.</p>
+            <p class="cta-banner-p">Tell us about your home, cafe, or office space. Our expert Delhi NCR botanists will handpick plant recommendations, soil mixes, and appropriate designer potsâ€”then WhatsApp you a curated catalog.</p>
             
             <div class="cta-benefits-list">
               <div class="benefit-bullet">
@@ -741,7 +743,7 @@
         <!-- FAQ 1 -->
         <div class="faq-item">
           <button class="faq-trigger" aria-expanded="false">
-            <span class="faq-question">Will these plants survive Delhi’s harsh summer and cold winter?</span>
+            <span class="faq-question">Will these plants survive Delhiâ€™s harsh summer and cold winter?</span>
             <span class="faq-icon"><i data-lucide="plus"></i></span>
           </button>
           <div class="faq-panel">
@@ -756,7 +758,7 @@
             <span class="faq-icon"><i data-lucide="plus"></i></span>
           </button>
           <div class="faq-panel">
-            <p class="faq-answer">We offer door-to-door nursery vehicle delivery across New Delhi, Noida, Gurgaon, Ghaziabad, and Faridabad. For individual home plants, there is no strict minimum order, though a small delivery fee applies. For bulk wholesale prices and free delivery, a minimum billing of ₹2,000 is recommended.</p>
+            <p class="faq-answer">We offer door-to-door nursery vehicle delivery across New Delhi, Noida, Gurgaon, Ghaziabad, and Faridabad. For individual home plants, there is no strict minimum order, though a small delivery fee applies. For bulk wholesale prices and free delivery, a minimum billing of â‚¹2,000 is recommended.</p>
           </div>
         </div>
 
@@ -808,7 +810,7 @@
           <p class="footer-bio-text">Connaught Place's landmark wholesale plant nursery. Dedicated to hand-nurturing robust, beautiful, acclimated plants and constructing luxury gardens across Delhi NCR since 1998.</p>
           <div class="social-links">
             <a href="https://instagram.com" target="_blank" aria-label="Instagram" class="social-icon"><i data-lucide="instagram"></i></a>
-            <a href="https://wa.me/919811234567" target="_blank" aria-label="WhatsApp" class="social-icon"><i data-lucide="phone"></i></a>
+            <a href="https://wa.me/919999702495" target="_blank" aria-label="WhatsApp" class="social-icon"><i data-lucide="phone"></i></a>
             <a href="https://facebook.com" target="_blank" aria-label="Facebook" class="social-icon"><i data-lucide="facebook"></i></a>
           </div>
         </div>
@@ -844,7 +846,7 @@
             </li>
             <li>
               <i data-lucide="clock" class="footer-contact-icon"></i>
-              <span>Open Daily: 8:00 AM – 8:00 PM</span>
+              <span>Open Daily: 8:00 AM â€“ 8:00 PM</span>
             </li>
           </ul>
         </div>
@@ -882,3 +884,4 @@
   <script src="script.js"></script>
 </body>
 </html>
+
